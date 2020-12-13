@@ -8,7 +8,7 @@ import axios from 'axios';
 
 
 const cookies = new Cookies();
-const USERS_REST_API_URL_RECOV = "http://localhost:8080/api/RecoveryPass";
+const USERS_REST_API_URL_RECOV = "http://18.222.97.138:8080/api/RecoveryPass";
 
 const { validate,format } = require('rut.js');
 
