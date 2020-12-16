@@ -23,7 +23,6 @@ artifacts:
     - public/**/*
     - src/**/*
     - package.json
-    - appspec.yml
-    
+
   discard-paths: no
   base-directory : build
