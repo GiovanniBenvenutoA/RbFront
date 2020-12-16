@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../img/banco-ripley.png';
 import axios from 'axios';
 import {Button, Modal} from 'react-bootstrap';
-const USERS_REST_API_URL_AUTH = "http://18.222.97.138:8080/api/Authentication";
+const USERS_REST_API_URL_AUTH = "http://ec2-52-15-165-68.us-east-2.compute.amazonaws.com:8091/api/Authentication";
 const { validate,format } = require('rut.js')
 
 
