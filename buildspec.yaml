@@ -18,12 +18,8 @@ phases:
       - echo Build started on `date`
       - echo Compiling
       - npm run build
-  post_build:
-    commands:
-      - echo Build completed on `date`
-# Include only the files required for your application to run.
 artifacts:
   files:
     - "**/*"
   discard-paths: no
-  base-directory : dist
+  base-directory : build
